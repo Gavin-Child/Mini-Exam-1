@@ -2,8 +2,7 @@ using System;
 
 class MainClass {
   public static void Main (string[] args) {
-    int counter = 0;
-    while (counter < 10)
+    for (int counter = 0; counter < 10; counter++)
     {
       Console.WriteLine ("Enter Name");
       string name = Console.ReadLine();
@@ -33,7 +32,6 @@ class MainClass {
         Console.WriteLine(name + " is Obese with a BMI of " + BMI);
       }
 
-      counter++;
 
     }
 
